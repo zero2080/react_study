@@ -1,0 +1,31 @@
+/* 
+    #3D434B - container
+    #EA5F8E - background / top
+    #E25B88 - background / bottom
+    #DCE0E3 - title-text
+    #9A9FA7 - subtitle-text
+*/
+
+*{
+    padding:0;
+    margin:0;
+}
+
+.background{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(160deg,#EA5F8E 50%, #E25B88 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #3D434B;
+    width:50vw;
+    height:80vh;
+    border-radius: 5px;
+    box-shadow: 0 0 12px 0px #000000b3;
+    overflow:hidden;
+    display: flex;
+}
